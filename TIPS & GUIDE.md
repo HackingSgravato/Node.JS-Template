@@ -15,11 +15,11 @@ npm install
 > - [DAISY UI (OPTIONAL)](./TIPS%20%26%20GUIDE.md#DAISY-UI)
 > - [EJS](./TIPS%20%26%20GUIDE.md#EJS)
 > - [ANIMATE](./TIPS%20%26%20GUIDE.md#ANIMATE)
-> - [INSPIRATION](./TIPS%20%26%20GUIDE.md#INSPIRATION)
+> - [INSPIRATION (OTHER)](./TIPS%20%26%20GUIDE.md#INSPIRATION)
 > - [INTER FONT (OPTIONAL)](./TIPS%20%26%20GUIDE.md#INTER-FONT)
-> - [RECOMMENDED VSCODE EXTENSIONS](./TIPS%20%26%20GUIDE.md#RECOMMENDED-VSCODE-EXTENSIONS)
-> - [DEV ENVIRORMENT](./TIPS%20%26%20GUIDE.md#DEV-ENVIRORMENT)
-> - [ADD NEW SCRIPTS](./TIPS%20%26%20GUIDE.md#ADD-NEW-SCRIPTS)
+> - [VSCODE EXTENSIONS (RECOMMENDED)](./TIPS%20%26%20GUIDE.md#VSCODE-EXTENSIONS)
+> - [DEV ENVIRONMENT](./TIPS%20%26%20GUIDE.md#DEV-ENVIRONMENT)
+> - [ADD NEW SCRIPTS (OTHER)](./TIPS%20%26%20GUIDE.md#ADD-NEW-SCRIPTS)
 
 ## TAILWIND
 
@@ -459,14 +459,14 @@ module.exports = {
 }
 ```
 
-## RECOMMENDED-VSCODE-EXTENSIONS
+## VSCODE-EXTENSIONS
 
 > - [TAILWIND CSS INTELLISENSE](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
 > - [AUTO RENAME TAG](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
 > - [COLORIZE](https://marketplace.visualstudio.com/items?itemName=kamikillerto.vscode-colorize)
 > - [HTML CSS SUPPORT](https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css)
 
-## DEV-ENVIRORMENT
+## DEV-ENVIRONMENT
 
 > We're using nodemon to run our server. Nodemon is a tool that helps develop node.js based applications by automatically restarting the node application when file changes in the directory are detected.
 >
