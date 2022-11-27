@@ -10,7 +10,7 @@
 
 ## ISSUES
 
-> **_If you encourred any problems, please [open an issue](https://github.com/HackingSgravato/Node.JS-Template/issues/new)_**
+> **_If you incurred any problems, please [open an issue](https://github.com/HackingSgravato/Node.JS-Template/issues/new)_**
 
 ## CONTRIBUTING
 
