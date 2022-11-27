@@ -16,6 +16,10 @@ npm install
 > - [EJS](./TIPS%20%26%20GUIDE.md#EJS)
 > - [ANIMATE](./TIPS%20%26%20GUIDE.md#ANIMATE)
 > - [INSPIRATION](./TIPS%20%26%20GUIDE.md#INSPIRATION)
+> - [INTER FONT (OPTIONAL)](./TIPS%20%26%20GUIDE.md#INTER-FONT)
+> - [RECOMMENDED VSCODE EXTENSIONS](./TIPS%20%26%20GUIDE.md#RECOMMENDED-VSCODE-EXTENSIONS)
+> - [DEV ENVIRORMENT](./TIPS%20%26%20GUIDE.md#DEV-ENVIRORMENT)
+> - [ADD NEW SCRIPTS](./TIPS%20%26%20GUIDE.md#ADD-NEW-SCRIPTS)
 
 ## TAILWIND
 
@@ -425,3 +429,72 @@ module.exports = {
 ## INSPIRATION
 
 > - [CSS TRICKS](https://css-tricks.com/)
+> - [CODE PEN](https://codepen.io/)
+> - [W3 SCHOOLS](https://www.w3schools.com/)
+> - [MDN WEB DOCS](https://developer.mozilla.org/en-US/)
+
+## INTER-FONT
+
+> You can also use [Inter Font](https://rsms.me/inter/) in your project. It's a free font that looks great on the web.
+>
+> Just add this line to your HTML file:
+
+```html
+<link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+```
+
+> And then add this line to your tailwind.config.js file:
+
+```js
+module.exports = {
+  //...
+
+  theme: {
+    //...
+
+    fontFamily: {
+      sans: ["Inter var"],
+    },
+  },
+}
+```
+
+## RECOMMENDED-VSCODE-EXTENSIONS
+
+> - [TAILWIND CSS INTELLISENSE](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
+> - [AUTO RENAME TAG](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
+> - [COLORIZE](https://marketplace.visualstudio.com/items?itemName=kamikillerto.vscode-colorize)
+> - [HTML CSS SUPPORT](https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css)
+
+## DEV-ENVIRORMENT
+
+> We're using nodemon to run our server. Nodemon is a tool that helps develop node.js based applications by automatically restarting the node application when file changes in the directory are detected.
+>
+> To start the server in development mode, run:
+
+```bash
+npm run dev
+```
+
+> To start the server in production mode, run:
+
+```bash
+npm start
+```
+
+> instead, to modify the extensions of the files that nodemon will watch, you can modify the [nodemon.json](./nodemon.json) file.
+
+## ADD-NEW-SCRIPTS
+
+> If you want to add new scripts to the project, you can add them to the [package.json](./package.json) file.
+>
+> For example you can use add a new script to run at the building process, like this:
+
+```json
+"scripts": {
+    "new-script": "echo \"Hello World!\"",
+    "build": "npm run new-script && ...",
+  },
+```
+
+> If you add a new script in the building process, then it'll be valid for both development and production mode.
