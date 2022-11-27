@@ -29,6 +29,7 @@ npm install
 >
 > - [INSPIRATION](./TIPS%20%26%20GUIDE.md#INSPIRATION)
 > - [ADD NEW SCRIPTS](./TIPS%20%26%20GUIDE.md#ADD-NEW-SCRIPTS)
+> - [THEME CHANGER](./TIPS%20%26%20GUIDE.md#THEME-CHANGER)
 
 ## TAILWIND
 
@@ -325,9 +326,11 @@ module.exports = {
 </html>
 ```
 
+#### THEME-CHANGER
+
 > I suggest you to use [theme-change](https://github.com/saadeghi/theme-change), so you can switch themes and save selected theme in local storage.
 
-#### How-To
+##### How-To
 
 > First install theme-change using cdn:
 
