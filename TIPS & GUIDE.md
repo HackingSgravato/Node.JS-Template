@@ -36,6 +36,7 @@ npm install
 
 > - [CHEATSHEET](https://tailwindcomponents.com/cheatsheet/)
 > - [CONFIG](./TIPS%20%26%20GUIDE.md#CONFIG)
+> - [TAILWIND UI](https://tailwindui.com/)
 > - [DOCS](https://tailwindcss.com/docs/installation)
 
 ### CONFIG
