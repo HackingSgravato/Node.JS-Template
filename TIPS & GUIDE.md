@@ -19,6 +19,7 @@ npm install
 >
 > - [TYPOGRAPHY](./TIPS%20%26%20GUIDE.md#TYPOGRAPHY)
 > - [VSCODE EXTENSIONS](./TIPS%20%26%20GUIDE.md#VSCODE-EXTENSIONS)
+> - [SVG](./TIPS%20%26%20GUIDE.md#SVG)
 >
 > **_OPTIONAL_**
 >
@@ -510,3 +511,17 @@ npm start
 ```
 
 > If you add a new script in the building process, then it'll be valid for both development and production mode.
+
+## SVG
+
+> - [FAST EXPLANATION](./TIPS%20%26%20GUIDE.md#FAST-EXPLANATION-1)
+
+### FAST-EXPLANATION-1
+
+> SVG is a markup language for describing two-dimensional vector graphics. SVG is an XML-based markup language that is used to describe two-dimensional vector graphics. SVG is a W3C Recommendation and is an open standard developed by the World Wide Web Consortium (W3C) since 1999.
+>
+> Use the link below access a lot of SVG icons:
+
+```html
+https://heroicons.com/
+```
