@@ -522,7 +522,4 @@ npm start
 > SVG is a markup language for describing two-dimensional vector graphics. SVG is an XML-based markup language that is used to describe two-dimensional vector graphics. SVG is a W3C Recommendation and is an open standard developed by the World Wide Web Consortium (W3C) since 1999.
 >
 > Use the link below access a lot of SVG icons:
-
-```html
-https://heroicons.com/
-```
+> [https://heroicons.com/](https://heroicons.com/)
