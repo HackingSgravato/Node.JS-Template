@@ -278,7 +278,7 @@ This is optional
 npm i daisyui
 ```
 
-> Then add daisyUI to your tailwind.config.js file:
+> Then add daisyUI to your [tailwind.config.js](./tailwind.config.js) file:
 
 ```js
 module.exports = {
