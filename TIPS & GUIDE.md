@@ -198,7 +198,7 @@ To use the plugin, first install it:
 npm install @tailwindcss/typography
 ```
 
-Then add the plugin to your tailwind.config.js file:
+Then add the plugin to your [tailwind.config.js](./tailwind.config.js) file:
 
 ```js
 module.exports = {
@@ -210,7 +210,7 @@ module.exports = {
 ```
 
 Attention (if you're using daisyui)
-> Make sure you require daisyui AFTER @tailwindcss/typography in tailwind.config.js
+> Make sure you require daisyui AFTER @tailwindcss/typography in [tailwind.config.js](./tailwind.config.js)
 
 ```js
 module.exports = {
@@ -297,7 +297,7 @@ module.exports = {
 }
 ```
 
-> DaisyUI can be configured from your tailwind.config.js file.
+> DaisyUI can be configured from your [tailwind.config.js](./tailwind.config.js) file.
 
 ```js
 module.exports = {
@@ -457,7 +457,7 @@ module.exports = {
 <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
 ```
 
-> And then add this line to your tailwind.config.js file:
+> And then add this line to your [tailwind.config.js](./tailwind.config.js) file:
 
 ```js
 module.exports = {
