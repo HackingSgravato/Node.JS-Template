@@ -439,6 +439,14 @@ module.exports = {
 > Animate.css is a bunch of cool, fun, and cross-browser animations for you to use in your projects. Great for emphasis, home pages, sliders, and general just-add-water-awesomeness.
 >
 > Just add the class animate__animated to an element, along with any of the [animate__* classes](https://animate.style/). That's it! You've got a CSS animated element. Super!
+>
+> You can also use the method animateCSS() to animate an element. It takes 2 parameters: the element and the animation name. For example:
+
+```js
+animateCSS('.my-element', 'bounce');
+```
+
+> Read more about this method [here](public/scripts/js/animate.js);
 
 ## INSPIRATION
 
